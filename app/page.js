@@ -25,6 +25,21 @@ export default function Home() {
           </li>
         </ol>
 
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
+          <h2 className="text-lg font-semibold text-blue-800 mb-2">
+            Google Ads API Test
+          </h2>
+          <p className="text-blue-600 text-sm mb-3">
+            Test je Google Ads API verbinding
+          </p>
+          <a
+            href="/google-ads"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md transition duration-200"
+          >
+            Open Google Ads Test →
+          </a>
+        </div>
+
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
